@@ -16,7 +16,7 @@
 1001:{"AccountNumber": "1001", "SortCode": "404041", "AccountOpeningDate": "04Oct1986", "AvailableBalance": "75", "AvailableFunds": "50", "TypeOfAccount": "current"}
 
 #Transaction
-10000:{"CustomerNumber":"10","AccountNumber":"1001","Amount":"50","Currency":"GBP","TransactionTime":"20201015102544","TransactionId":"10000"}
+1001:{"CustomerNumber":"10","AccountNumber":"1001","Amount":"50","Currency":"GBP","TransactionTime":"20201015102544","TransactionId":"10000"}
 
 #Create the topic called Enriched Transaction and set all the required values using Customer, Account and Transaction topics.
 

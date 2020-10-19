@@ -15,3 +15,14 @@ This is a demo to illustrate following items
   
   Important Note: delete the 'tmp' folder once you clone your project. This folder will contain the local kafka data.
   
+  
+  Kafka Environment setup in local
+  ---------------------------------
+  
+  Please use the kafka binaries from kafka23 folder.
+  
+  setup the environment variables in your windows machine
+  KAFKA_HOME - C:\TSB\kafka23
+  PATH - C:\TSB\kafka23\bin\windows
+  
+  

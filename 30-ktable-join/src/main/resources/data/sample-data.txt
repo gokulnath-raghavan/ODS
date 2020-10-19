@@ -1,0 +1,28 @@
+#Customer
+10:{"CustomerNumber": "10", "Email": "gokulnath.raghavan@gmail.com", "DOB": "04Oct1986", "PhoneNumber": "7539214141", "FirstName": "Gokul", "Surname": "Raghavan", "Nationality": "Indian"}
+
+#CustomerLogin And update the phone number
+10:{"CustomerNumber": "10","PhoneNumber": "8073180406"}
+
+#Account
+1001:{"AccountNumber": "1001", "SortCode": "404041", "AccountOpeningDate": "04Oct1986", "AvailableBalance": "75", "AvailableFunds": "50", "TypeOfAccount": "current"}
+
+#Transaction
+1001:{"CustomerNumber":"10","AccountNumber":"1001","Amount":"50","Currency":"GBP","TransactionTime":"20201015102544","TransactionId":"10000"}
+
+#Create the topic called Enriched Transaction and set all the required values using Customer, Account and Transaction topics.
+
+#EnrichedTransaction
+10:{
+"CustomerNumber":"10",
+"AccountNumber":"1001",
+"Amount":"50",
+"Currency":"GBP",
+"TransactionTime":"20201015102544",
+"TransactionId":"10000",
+"PhoneNumber":"8073180406",
+"FirstName":"Gokul",
+"Surname":"Raghavan",
+"SortCode":"404041",
+"TypeOfAccount":"current"
+}

@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "javaType": "guru.learningjournal.kafka.examples.types.AccountDetails",
+  "properties": {
+    "AccountNumber": {
+      "type": "string"
+    },
+    "SortCode": {
+      "type": "string"
+    },
+    "AccountOpeningDate": {
+      "type": "string"
+    },
+    "AvailableBalance": {
+      "type": "string"
+    },
+    "AvailableFunds": {
+      "type": "string"
+    },
+    "TypeOfAccount": {
+      "type": "string"
+    }
+  }
+}
